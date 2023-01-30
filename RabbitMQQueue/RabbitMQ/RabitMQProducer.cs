@@ -12,9 +12,9 @@ namespace RabbitMQQueue.RabbitMQ
             var factory = new ConnectionFactory
             {
                 HostName = "localhost",
-                UserName = "user",
-                Password = "mypass",
-                VirtualHost = "/"
+                //UserName = "user",
+                //Password = "mypass",
+                //VirtualHost = "/"
             };
             //Create the RabbitMQ connection using connection factory details as i mentioned above
             var connection = factory.CreateConnection();
